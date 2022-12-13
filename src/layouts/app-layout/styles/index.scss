@@ -1,0 +1,11 @@
+.app-layout {
+  background: #707274;
+  overflow-x: hidden;
+  position: relative;
+
+  .scroll-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+  }
+}

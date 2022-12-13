@@ -1,0 +1,103 @@
+@import "src/assets/scss/_ui/font-family";
+@import "src/assets/scss/_global/keyframes";
+@import "src/assets/scss/_global/breakpoints";
+
+.toast-wrapper {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  z-index: 1200;
+
+  @media screen and (max-width: $md) {
+    width: max-content;
+    right: 0;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+  }
+
+  .toast-item {
+    font-family: $inter;
+    padding: 15px;
+    background: #FFF;
+    color: #000;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+
+    @media (any-hover: hover) {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    @media screen and (max-width: $md) {
+      width: 270px;
+    }
+
+    &__title {
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__progress {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+
+      & > div {
+        background: rgb(0 0 0 / 30%);
+        border-radius: 5px;
+        height: 5px;
+        animation: round-time calc(var(--duration) * 1s) linear forwards;
+        transform-origin: left center;
+      }
+    }
+
+    &_success {
+      color: #FFF;
+      background: #51a351;
+    }
+
+    &_info {
+      color: #FFF;
+      background: #2f96b4;
+    }
+
+    &_warning {
+      color: #FFF;
+      background: #f89406
+    }
+
+    &_error {
+      color: #FFF;
+      background: #e34040;
+    }
+
+    &.toast-slide-enter-active,
+    &.toast-slide-leave-active {
+      transition: all 0.5s ease;
+    }
+
+    &.toast-slide-enter-from,
+    &.toast-slide-leave-to {
+      opacity: 0;
+      transform: translateX(80px);
+
+      @media screen and (max-width: $md) {
+        transform: translateY(80px);
+      }
+    }
+  }
+}

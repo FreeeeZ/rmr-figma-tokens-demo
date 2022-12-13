@@ -1,0 +1,17 @@
+@import "src/assets/scss/_ui/font-family";
+
+@mixin button-primary {
+  font-family: $inter;
+  font-style: normal;
+  padding: 14px;
+  background: #0E6DF1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.408px;
+  color: #FFFFFF;
+
+  &:hover {
+    background: #65a5ff;
+  }
+}

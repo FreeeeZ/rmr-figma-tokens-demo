@@ -1,0 +1,9 @@
+@import "src/assets/scss/_ui/font-family";
+
+@mixin input-primary {
+  font-family: $inter;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #BDEBEA;
+}

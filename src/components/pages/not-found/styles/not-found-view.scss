@@ -1,0 +1,33 @@
+.not-found-wrap {
+  margin: 30px 0 100px;
+
+  & > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__picture {
+    height: 350px;
+
+    img {
+      width: 450px;
+      height: 450px;
+    }
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 75px;
+    color: #FFF;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #92E4C3;
+  }
+}

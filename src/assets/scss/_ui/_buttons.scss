@@ -1,0 +1,28 @@
+@import "src/assets/scss/_ui/font-family";
+@import "src/assets/scss/_ui/mixins/buttons";
+@import "src/assets/scss/_global/breakpoints";
+
+.button {
+  border: none;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.button-primary {
+    @include button-primary;
+  }
+
+  &.button-primary-with-icon {
+    @include button-primary;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+    justify-items: center;
+  }
+}

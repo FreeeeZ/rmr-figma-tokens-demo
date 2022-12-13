@@ -1,0 +1,68 @@
+.some-page {
+  margin: 50px 0 0;
+  border-radius: 8px;
+
+  &__light {
+    background: #F2F2F2;
+  }
+
+  &__dark {
+    background: #333333;
+  }
+
+  &__wrapper {
+    width: 375px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.408px;
+    margin: 0 0 16px;
+  }
+
+  &__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    margin: 0 0 44px;
+  }
+
+  &__picture {
+    margin: 0 0 56px;
+  }
+
+  &__fields {
+    margin: 0 0 16px;
+
+    form {
+      width: 100%;
+
+      fieldset {
+        padding: 0;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 8px;
+      }
+    }
+  }
+
+  &__field {
+    display: flex;
+
+    input {
+      width: 100%;
+    }
+  }
+}

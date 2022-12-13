@@ -1,0 +1,25 @@
+@keyframes modal-toggle-open {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-toggle-close {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes round-time {
+  to {
+    transform: scaleX(0);
+  }
+}

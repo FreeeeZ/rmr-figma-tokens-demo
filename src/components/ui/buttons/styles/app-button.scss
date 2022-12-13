@@ -1,0 +1,6 @@
+.app-button {
+  &:deep(svg) {
+    width: 20px;
+    height: 20px;
+  }
+}
