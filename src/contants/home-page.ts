@@ -1,7 +1,8 @@
 export const HOME_PAGE_TEXTS = {
   title: 'Greetings!',
   subTitle: 'Welcome to this example app',
-  submitButtonText: 'Some Action'
+  submitButtonText: 'Some Action',
+  submitButtonProcessing: 'Processing...'
 };
 
 export const HOME_PAGE_FIELDS = [

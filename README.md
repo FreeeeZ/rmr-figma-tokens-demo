@@ -17,7 +17,7 @@ This repo demonstrates how does compiling tokens from <code>.json</code> files
 
 ## Roadmap
 
-- [x] Main landing with "Projects" page.
+- [ ] Points will be added a little bit later
 
 ## Quick start
 

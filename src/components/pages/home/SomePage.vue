@@ -29,11 +29,10 @@
           </form>
         </div>
         <div class="some-page__submit">
-<!--          <AppButton v-if="formProcessingValue" button-type="primary-with-icon" disabled @click="confirmForm">-->
-<!--            <LoadingIcon />-->
-<!--            Processing...-->
-<!--          </AppButton>-->
-          <AppButton button-type="primary">
+          <AppButton v-if="formProcessingValue" button-type="primary" disabled @click="confirmForm">
+            {{ HOME_PAGE_TEXTS.submitButtonProcessing }}
+          </AppButton>
+          <AppButton v-else button-type="primary" @click="confirmForm">
             {{ HOME_PAGE_TEXTS.submitButtonText }}
           </AppButton>
         </div>
@@ -43,6 +42,8 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+
 import { HOME_PAGE_TEXTS, HOME_PAGE_FIELDS } from "@/contants/home-page";
 
 import AppButton from "@/components/ui/buttons/appButton.vue";
@@ -54,8 +55,16 @@ defineProps({
   }
 });
 
+const formProcessingValue = ref(false);
+
 function changeFieldValue (field, e) {
   field.value = e.target.value;
+}
+
+function confirmForm (e) {
+  e.preventDefault();
+  formProcessingValue.value = true;
+  setTimeout(() => { formProcessingValue.value = false; }, 1000);
 }
 </script>
 
