@@ -2,8 +2,8 @@
   <div class="some-page" :class="`some-page__${theme}`">
     <div class="container">
       <div class="some-page__wrapper">
-        <h1 class="some-page__title">{{ HOME_PAGE_TEXTS.title }}</h1>
-        <h3 class="some-page__subtitle">{{ HOME_PAGE_TEXTS.subTitle }}</h3>
+        <h1 class="some-page__title">{{ SOME_PAGE_TEXTS.title }}</h1>
+        <h3 class="some-page__subtitle">{{ SOME_PAGE_TEXTS.subTitle }}</h3>
         <div class="some-page__picture">
           <picture>
             <source type="image/png" srcset="@/assets/images/some-page/image.png">
@@ -13,7 +13,7 @@
         <div class="some-page__fields">
           <form>
             <fieldset>
-              <div v-for="(field, index) in HOME_PAGE_FIELDS" :key="index" class="some-page__field">
+              <div v-for="(field, index) in SOME_PAGE_FIELDS" :key="index" class="some-page__field">
                 <component
                   :is="field?.tag"
                   class="input input-primary"
@@ -30,10 +30,10 @@
         </div>
         <div class="some-page__submit">
           <AppButton v-if="formProcessingValue" button-type="primary" disabled @click="confirmForm">
-            {{ HOME_PAGE_TEXTS.submitButtonProcessing }}
+            {{ SOME_PAGE_TEXTS.submitButtonProcessing }}
           </AppButton>
           <AppButton v-else button-type="primary" @click="confirmForm">
-            {{ HOME_PAGE_TEXTS.submitButtonText }}
+            {{ SOME_PAGE_TEXTS.submitButtonText }}
           </AppButton>
         </div>
       </div>
@@ -44,7 +44,7 @@
 <script setup>
 import { ref } from "vue";
 
-import { HOME_PAGE_TEXTS, HOME_PAGE_FIELDS } from "@/contants/home-page";
+import { SOME_PAGE_TEXTS, SOME_PAGE_FIELDS } from "@/contants/some-page";
 
 import AppButton from "@/components/ui/buttons/appButton.vue";
 

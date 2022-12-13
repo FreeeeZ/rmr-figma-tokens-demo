@@ -1,11 +1,11 @@
-export const HOME_PAGE_TEXTS = {
+export const SOME_PAGE_TEXTS = {
   title: 'Greetings!',
   subTitle: 'Welcome to this example app',
   submitButtonText: 'Some Action',
   submitButtonProcessing: 'Processing...'
 };
 
-export const HOME_PAGE_FIELDS = [
+export const SOME_PAGE_FIELDS = [
   {
     name: 'field-1',
     tag: 'input',
