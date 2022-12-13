@@ -65,4 +65,10 @@
       width: 100%;
     }
   }
+
+  &__submit {
+    &:deep(button) {
+      width: 100%;
+    }
+  }
 }
