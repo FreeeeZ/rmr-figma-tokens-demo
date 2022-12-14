@@ -2,12 +2,24 @@
   <div class="some-page" :class="`some-page_${theme}`">
     <div class="container">
       <div class="some-page__wrapper">
+        <div class="some-page__header">
+          <div class="some-page__time">
+            <span>9:41</span>
+          </div>
+          <div class="some-page__bang" />
+          <div class="some-page__icons">
+            <picture>
+              <source type="image/png" :srcset="theme === 'dark' ? HeaderIconsLight : HeaderIconsDark">
+              <img :src="theme === 'dark' ? HeaderIconsLight : HeaderIconsDark" alt="Header icons" width="78">
+            </picture>
+          </div>
+        </div>
         <h1 class="some-page__title">{{ SOME_PAGE_TEXTS.title }}</h1>
         <h3 class="some-page__subtitle">{{ SOME_PAGE_TEXTS.subTitle }}</h3>
         <div class="some-page__picture">
           <picture>
-            <source type="image/png" srcset="@/assets/images/some-page/image.png">
-            <img src="@/assets/images/some-page/image.png" alt="Some pic" width="263">
+            <source type="image/png" srcset="@/components/pages/home/images/image.png">
+            <img src="@/components/pages/home/images/image.png" alt="Some pic" width="263">
           </picture>
         </div>
         <div class="some-page__fields">
@@ -33,6 +45,9 @@
             {{ formProcessingValue ? SOME_PAGE_TEXTS.submitButtonProcessing : SOME_PAGE_TEXTS.submitButtonText }}
           </AppButton>
         </div>
+        <div class="some-page__footer">
+          <div class="some-page__swipe-bar" :class="`some-page__swipe-bar_${theme}`" />
+        </div>
       </div>
     </div>
   </div>
@@ -44,6 +59,8 @@ import { ref } from "vue";
 import { SOME_PAGE_TEXTS, SOME_PAGE_FIELDS } from "@/contants/some-page";
 
 import AppButton from "@/components/ui/buttons/appButton.vue";
+import HeaderIconsLight from "@/components/pages/home/images/bang-light.png";
+import HeaderIconsDark from "@/components/pages/home/images/bang-dark.png";
 
 defineProps({
   theme: {

@@ -1,0 +1,28 @@
+@import "src/assets/tokens/scss/_base.scss";
+
+$some-page-theme-styles: (
+  light: (
+    container-bg: $base-color-neutral-95,
+    time-color: $base-color-neutral-0,
+    title-color: $base-color-neutral-10,
+    subtitle-color: $base-color-neutral-10,
+    submit-bg: $base-color-blue-50,
+    input-border: $base-color-neutral-90,
+    input-placeholder: $base-color-neutral-40,
+    input-bg: $base-color-neutral-90,
+    input-color: $base-color-neutral-10,
+    footer-swipe-bar-bg: $base-color-neutral-0,
+  ),
+  dark: (
+    container-bg: $base-color-neutral-20,
+    time-color: $base-color-neutral-100,
+    title-color: $base-color-neutral-100,
+    subtitle-color: $base-color-neutral-80,
+    submit-bg: $base-color-blue-50,
+    input-border: $base-color-neutral-10,
+    input-placeholder: $base-color-neutral-60,
+    input-bg: $base-color-neutral-10,
+    input-color: $base-color-neutral-90,
+    footer-swipe-bar-bg: $base-color-neutral-100,
+  )
+);

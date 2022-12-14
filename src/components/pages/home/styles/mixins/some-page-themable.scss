@@ -4,6 +4,18 @@
       background: map-get($theme-value, container-bg);
 
       .some-page {
+        &__time {
+          color: map-get($theme-value, time-color);
+        }
+
+        &__bang {
+
+        }
+
+        &__icons {
+
+        }
+
         &__title {
           color: map-get($theme-value, title-color);
         }
@@ -20,6 +32,7 @@
           input {
             border: 1px solid map-get($theme-value, input-border);
             background-color: map-get($theme-value, input-bg);
+            color: map-get($theme-value, input-color);
 
             &::placeholder {
               color: map-get($theme-value, input-placeholder);
@@ -31,6 +44,10 @@
           &:deep(button) {
             background-color: map-get($theme-value, submit-bg);
           }
+        }
+
+        &__swipe-bar {
+          background-color: map-get($theme-value, footer-swipe-bar-bg);
         }
       }
     }

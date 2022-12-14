@@ -1,7 +1,27 @@
 .main-content {
-  min-height: 100%;
+  min-height: 100vh;
+  position: relative;
 
   [class*="-page"] {
-    margin: 50px 0 0;
+    margin: 35px 0 0;
+  }
+
+  .top-right-badge {
+    position: absolute;
+    top: -130px;
+    right: -100px;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    background-image:
+            linear-gradient(to bottom right, transparent 50%, #FF0000 0),
+            linear-gradient(to top right, #FF0000 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
   }
 }
