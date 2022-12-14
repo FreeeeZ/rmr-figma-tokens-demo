@@ -1,0 +1,38 @@
+@mixin some-page-themable($some-page-theme-styles) {
+  @each $theme-key, $theme-value in $some-page-theme-styles {
+    &_#{$theme-key} {
+      background: map-get($theme-value, container-bg);
+
+      .some-page {
+        &__title {
+          color: map-get($theme-value, title-color);
+        }
+
+        &__subtitle {
+          color: map-get($theme-value, subtitle-color);
+        }
+
+        &__picture {
+
+        }
+
+        &__field {
+          input {
+            border: 1px solid map-get($theme-value, input-border);
+            background-color: map-get($theme-value, input-bg);
+
+            &::placeholder {
+              color: map-get($theme-value, input-placeholder);
+            }
+          }
+        }
+
+        &__submit {
+          &:deep(button) {
+            background-color: map-get($theme-value, submit-bg);
+          }
+        }
+      }
+    }
+  }
+}

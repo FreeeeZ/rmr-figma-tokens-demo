@@ -1,6 +1,12 @@
 @import "./container";
 @import "./breakpoints";
-@import "src/assets/scss/_ui/font-family";
+@import "src/assets/scss/_ui/_font-family.scss";
+//@import "src/assets/tokens/scss/_app_kit.css";
+//@import "src/assets/tokens/scss/_app_style-round.css";
+//@import "src/assets/tokens/scss/_app_style-square.css";
+//@import "src/assets/tokens/scss/_app_theme-dark.css";
+//@import "src/assets/tokens/scss/_app_theme-light.css";
+//@import "src/assets/tokens/scss/_base.scss";
 
 :root {
   font-family: $inter;
@@ -10,40 +16,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-size-adjust: 100%;
-
-  // color: rgba(255, 255, 255, 0.87);
-  // background-color: #242424;
 }
 
 html, body {
   height: 100%;
   min-width: 320px;
 }
-
-html {
-  &.page-locked {
-    overflow: hidden;
-  }
-}
-
-// body {
-  // margin: 0;
-  // display: flex;
-  // place-items: center;
-  // min-width: 320px;
-  // min-height: 100vh;
-// }
-
-
-// @media (prefers-color-scheme: light) {
-//  :root {
-//    color: #213547;
-//    background-color: #ffffff;
-//  }
-//  a:hover {
-//    color: #747bff;
-//  }
-//  button {
-//    background-color: #f9f9f9;
-//  }
-// }

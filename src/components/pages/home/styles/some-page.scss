@@ -1,14 +1,32 @@
+@import "src/assets/tokens/scss/_base.scss";
+@import "src/components/pages/home/styles/mixins/some-page-themable";
+
+$some-page-theme-styles: (
+  light: (
+    container-bg: $base-color-neutral-95,
+    title-color: $base-color-neutral-10,
+    subtitle-color: $base-color-neutral-10,
+    submit-bg: $base-color-blue-50,
+    input-border: $base-color-neutral-90,
+    input-placeholder: $base-color-neutral-40,
+    input-bg: $base-color-neutral-90
+  ),
+  dark: (
+    container-bg: $base-color-neutral-20,
+    title-color: $base-color-neutral-100,
+    subtitle-color: $base-color-neutral-80,
+    submit-bg: $base-color-blue-50,
+    input-border: $base-color-neutral-10,
+    input-placeholder: $base-color-neutral-60,
+    input-bg: $base-color-neutral-10
+  )
+);
+
 .some-page {
-  margin: 50px 0 0;
   border-radius: 8px;
+  background: $base-color-neutral-100;
 
-  &__light {
-    background: #F2F2F2;
-  }
-
-  &__dark {
-    background: #333333;
-  }
+  @include some-page-themable($some-page-theme-styles);
 
   &__wrapper {
     width: 375px;
@@ -22,17 +40,19 @@
   }
 
   &__title {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
+    font-style: normal;
+    font-weight: #{$typo-title-middle-font-weight}px;
+    font-size: #{$typo-title-middle-font-size}px;
+    line-height: #{$typo-title-middle-line-height}px;
     letter-spacing: -0.408px;
     margin: 0 0 16px;
   }
 
   &__subtitle {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+    font-style: normal;
+    font-weight: #{$typo-subtitle-small-font-weight}px;
+    font-size: #{$typo-subtitle-small-font-size}px;
+    line-height: #{$typo-subtitle-small-line-height}px;
     letter-spacing: -0.408px;
     margin: 0 0 44px;
   }
@@ -54,6 +74,8 @@
         flex-direction: column;
         justify-content: center;
         row-gap: 8px;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
       }
     }
   }
@@ -63,12 +85,17 @@
 
     input {
       width: 100%;
+
+      &::placeholder {
+        letter-spacing: -0.408px;
+      }
     }
   }
 
   &__submit {
     &:deep(button) {
       width: 100%;
+      border-radius: 8px;
     }
   }
 }

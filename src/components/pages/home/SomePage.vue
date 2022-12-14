@@ -1,5 +1,5 @@
 <template>
-  <div class="some-page" :class="`some-page__${theme}`">
+  <div class="some-page" :class="`some-page_${theme}`">
     <div class="container">
       <div class="some-page__wrapper">
         <h1 class="some-page__title">{{ SOME_PAGE_TEXTS.title }}</h1>
@@ -29,11 +29,8 @@
           </form>
         </div>
         <div class="some-page__submit">
-          <AppButton v-if="formProcessingValue" button-type="primary" disabled @click="confirmForm">
-            {{ SOME_PAGE_TEXTS.submitButtonProcessing }}
-          </AppButton>
-          <AppButton v-else button-type="primary" @click="confirmForm">
-            {{ SOME_PAGE_TEXTS.submitButtonText }}
+          <AppButton button-type="primary" :disabled="formProcessingValue" @click="confirmForm">
+            {{ formProcessingValue ? SOME_PAGE_TEXTS.submitButtonProcessing : SOME_PAGE_TEXTS.submitButtonText }}
           </AppButton>
         </div>
       </div>

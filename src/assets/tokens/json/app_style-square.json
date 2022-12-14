@@ -1,0 +1,17 @@
+{
+  "br": {
+    "image": {
+      "value": "$br.small.s",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "field": {
+      "value": 0,
+      "type": "borderRadius"
+    },
+    "actions": {
+      "value": 0,
+      "type": "borderRadius"
+    }
+  }
+}

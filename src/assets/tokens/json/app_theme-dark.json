@@ -1,0 +1,233 @@
+{
+  "kit_color": {
+    "bcg": {
+      "primary": {
+        "value": "$base_color.neutral.10",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "secondary": {
+        "value": "$base_color.neutral.20",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "tertiary": {
+        "value": "$base_color.neutral.30",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "surface": {
+      "primary": {
+        "value": "$base_color.blue.40",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "secondary": {
+        "value": "$base_color.blue.50",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "tertiary": {
+        "value": "$base_color.neutral.40",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "opaque": {
+        "value": "rgba($base_color.neutral.10, $opacity.0)",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "semi_opaque": {
+        "value": "rgba($base_color.neutral.10, $opacity.40)",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "onSurface": {
+      "onPrimary": {
+        "value": "$base_color.neutral.100",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "onSecondary": {
+        "value": "$base_color.blue.10",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "onTertiary": {
+        "value": "$base_color.neutral.95",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "onOpaque": {
+        "value": "$base_color.neutral.10",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "accent": {
+      "primary": {
+        "value": "$base_color.blue.40",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "negative": {
+        "value": "$base_color.red.30",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "positive": {
+        "value": "$base_color.green.30",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "alert": {
+      "alarm": {
+        "value": "$base_color.red.30",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "warning": {
+        "value": "$base_color.orange.40",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "success": {
+        "value": "$base_color.green.30",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "onAlert": {
+        "value": "$base_color.neutral.100",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "text_icon": {
+      "main": {
+        "value": "$base_color.neutral.100",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "primary": {
+        "value": "$base_color.neutral.80",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "secondary": {
+        "value": "$base_color.neutral.60",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "tertiary": {
+        "value": "$base_color.neutral.20",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "quaternary": {
+        "value": "$base_color.blue.40",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "contrast": {
+        "value": "$base_color.neutral.100",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "divider": {
+      "divider": {
+        "value": "$base_color.neutral.80",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "border": {
+        "value": "$base_color.neutral.10",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "button": {
+      "primary": {
+        "value": "$base_color.blue.40",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "onPrimary": {
+        "value": "$base_color.neutral.100",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "secondary": {
+        "value": "$base_color.blue.50",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "onSecondary": {
+        "value": "$base_color.blue.10",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "primaryContrast": {
+        "value": "$base_color.neutral.10",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "onPrimaryContrast": {
+        "value": "$base_color.neutral.100",
+        "type": "color",
+        "failedToResolve": true
+      }
+    }
+  },
+  "shadow": {
+    "container": {
+      "small": {
+        "value": [
+          {
+            "x": 0,
+            "y": 6,
+            "blur": 20,
+            "spread": 0,
+            "color": "rgba($base_color.neutral.10, $opacity.12)",
+            "type": "dropShadow"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "blur": 2,
+            "spread": 0,
+            "color": "rgba($base_color.neutral.10, $opacity.8)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "failedToResolve": true
+      },
+      "medium": {
+        "value": [
+          {
+            "x": 0,
+            "y": 12,
+            "blur": 40,
+            "spread": 0,
+            "color": "rgba($base_color.neutral.10, $opacity.20)",
+            "type": "dropShadow"
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "blur": 1,
+            "spread": 0,
+            "color": "rgba($base_color.neutral.10, $opacity.8)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "failedToResolve": true
+      }
+    }
+  }
+}
