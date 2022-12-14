@@ -1,4 +1,5 @@
 export const SOME_PAGE_TEXTS = {
+  time: '9:41',
   title: 'Greetings!',
   subTitle: 'Welcome to this example app',
   submitButtonText: 'Some Action',

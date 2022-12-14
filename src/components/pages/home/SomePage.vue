@@ -4,7 +4,7 @@
       <div class="some-page__wrapper">
         <div class="some-page__header">
           <div class="some-page__time">
-            <span>9:41</span>
+            <span>{{ SOME_PAGE_TEXTS.time }}</span>
           </div>
           <div class="some-page__bang" />
           <div class="some-page__icons">
