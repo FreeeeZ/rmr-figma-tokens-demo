@@ -1,19 +1,21 @@
+@use "sass:map";
+
 @mixin some-page-themable($some-page-theme-styles) {
   @each $theme-key, $theme-value in $some-page-theme-styles {
     &_#{$theme-key} {
-      background: map-get($theme-value, container-bg);
+      background: map.get($theme-value, container-bg);
 
       .some-page {
         &__time {
-          color: map-get($theme-value, time-color);
+          color: map.get($theme-value, time-color);
         }
 
         &__title {
-          color: map-get($theme-value, title-color);
+          color: map.get($theme-value, title-color);
         }
 
         &__subtitle {
-          color: map-get($theme-value, subtitle-color);
+          color: map.get($theme-value, subtitle-color);
         }
 
         &__picture {
@@ -22,24 +24,24 @@
 
         &__field {
           input {
-            border: 1px solid map-get($theme-value, input-border);
-            background-color: map-get($theme-value, input-bg);
-            color: map-get($theme-value, input-color);
+            border: 1px solid map.get($theme-value, input-border);
+            background-color: map.get($theme-value, input-bg);
+            color: map.get($theme-value, input-color);
 
             &::placeholder {
-              color: map-get($theme-value, input-placeholder);
+              color: map.get($theme-value, input-placeholder);
             }
           }
         }
 
         &__submit {
           &:deep(button) {
-            background-color: map-get($theme-value, submit-bg);
+            background-color: map.get($theme-value, submit-bg);
           }
         }
 
         &__swipe-bar {
-          background-color: map-get($theme-value, footer-swipe-bar-bg);
+          background-color: map.get($theme-value, footer-swipe-bar-bg);
         }
       }
     }
