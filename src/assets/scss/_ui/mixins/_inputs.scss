@@ -1,9 +1,10 @@
+@import "src/assets/tokens/scss/_base";
 @import "src/assets/scss/_ui/font-family";
 
 @mixin input-primary {
   font-family: $inter;
   padding: 15px;
-  font-size: 16px;
-  color: #fff;
-  border: 1px solid #BDEBEA;
+  font-size: #{$fs-small-xl}px;
+  color: $base-color-neutral-100;
+  border: 1px solid $base-color-neutral-70;
 }

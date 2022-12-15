@@ -1,23 +1,16 @@
+@import "src/assets/tokens/scss/_base";
 @import "src/assets/scss/_ui/font-family";
 @import "src/assets/scss/_ui/mixins/inputs";
 
 .input {
-  border: 1px solid #000;
+  border: 1px solid $base-color-neutral-0;
   background-color: transparent;
-  border-radius: 6px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-
-  &::placeholder {
-    color: #b2b2b2;
-  }
+  border-radius: #{$br-small-l}px;
+  font-weight: $fw-inter-400;
+  font-size: #{$fs-small-l}px;
+  line-height: #{$lh-fixed-22}px;
 
   &-primary {
     @include input-primary;
-  }
-
-  &_resize-disabled {
-    resize: none;
   }
 }

@@ -1,1 +1,3 @@
-$inter: inter, sans-serif;
+@import "src/assets/tokens/scss/_base";
+
+$inter: $ff-inter, sans-serif;

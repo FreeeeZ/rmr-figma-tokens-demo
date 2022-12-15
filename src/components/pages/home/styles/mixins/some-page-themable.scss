@@ -19,7 +19,9 @@
         }
 
         &__picture {
-
+          img {
+            border-radius: #{map.get($theme-value, picture-border-radius)}px;
+          }
         }
 
         &__field {
