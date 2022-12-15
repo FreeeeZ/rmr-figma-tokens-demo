@@ -3,7 +3,7 @@ export const SOME_PAGE_TEXTS = {
   title: 'Greetings!',
   subTitle: 'Welcome to this example app',
   submitButtonText: 'Some Action',
-  submitButtonProcessing: 'Processing...'
+  submitButtonProcessingText: 'Processing...'
 };
 
 export const SOME_PAGE_FIELDS = [

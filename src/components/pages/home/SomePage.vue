@@ -42,7 +42,7 @@
         </div>
         <div class="some-page__submit">
           <AppButton button-type="primary" :disabled="isFormProcessing" @click="confirmForm">
-            {{ isFormProcessing ? SOME_PAGE_TEXTS.submitButtonProcessing : SOME_PAGE_TEXTS.submitButtonText }}
+            {{ isFormProcessing ? SOME_PAGE_TEXTS.submitButtonProcessingText : SOME_PAGE_TEXTS.submitButtonText }}
           </AppButton>
         </div>
         <div class="some-page__footer">
@@ -59,8 +59,8 @@ import { ref, defineProps } from "vue";
 import { SOME_PAGE_TEXTS, SOME_PAGE_FIELDS } from "@/contants/some-page";
 
 import AppButton from "@/components/ui/buttons/appButton.vue";
-import HeaderIconsLight from "@/components/pages/home/images/bang-light.png";
 import HeaderIconsDark from "@/components/pages/home/images/bang-dark.png";
+import HeaderIconsLight from "@/components/pages/home/images/bang-light.png";
 
 defineProps({
   theme: {
