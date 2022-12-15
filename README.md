@@ -1,11 +1,17 @@
 # r_m_r Tsk Figma tokens demo
 
 ## Description
-This repo demonstrates how does compiling tokens from <code>.json</code> files
+
+This repo demonstrates how does compiling tokens from <code>.json</code> files to <code>.css</code> or <code>.scss</code>
 
 ## Design
+
 <p>Figma tokens <a href="https://www.figma.com/file/SU6QWgSrLBf5fV6jPh3oZg/Tokens-Explanation">explanation</a></p>
 <p>Figma tokens <a href="https://www.figma.com/file/T2CIC1zD6eA0RJHJtdtbsJ/Tokens-Determine">determine</a></p>
+
+## Tokens repo
+
+https://github.com/arturuxui/rmr_tokens
 
 ## Main deps
 
@@ -17,7 +23,10 @@ This repo demonstrates how does compiling tokens from <code>.json</code> files
 
 ## Roadmap
 
-- [ ] Points will be added a little bit later
+- [x] Write script for get tokens from remote repository
+- [x] Parse json tokens to css/scss
+- [x] Markup example page for demonstrate changes into tokens
+- [ ] Make this repo auto update. Write git hook for figma tokens auto deploy
 
 ## Quick start
 
