@@ -26,13 +26,20 @@ https://github.com/arturuxui/rmr_tokens
 - [x] Write script for get tokens from remote repository
 - [x] Parse json tokens to css/scss
 - [x] Markup example page for demonstrate changes into tokens
-- [ ] Make this repo auto update. Write git hook for figma tokens auto deploy
+- [ ] Make this repo auto update. Write git hook for figma tokens auto deploy when changes is available
+- [ ] Setup StyleDictionary for correct parsing arrays
 
 ## Quick start
 
 1. Install all dependencies using `yarn` or `npm install`
 2. Start the development server using `yarn dev` or `npm run dev`
 3. Open up [http://localhost:3000](http://localhost:3000)
+
+## How to get tokens
+
+1. Run script for get and parse tokens using `yarn get-tokens` or `npm run get-tokens`
+2. Open `src/assets/tokens` folder
+3. Profit!
 
 ## License
 
