@@ -9,6 +9,7 @@
   font-weight: $fw-inter-400;
   font-size: #{$fs-small-l}px;
   line-height: #{$lh-fixed-22}px;
+  outline: none;
 
   &-primary {
     @include input-primary;

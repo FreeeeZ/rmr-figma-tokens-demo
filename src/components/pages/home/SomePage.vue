@@ -15,7 +15,7 @@
           </div>
         </div>
         <h1 class="some-page__title">{{ SOME_PAGE_TEXTS.title }}</h1>
-        <h3 class="some-page__subtitle">{{ SOME_PAGE_TEXTS.subTitle }}</h3>
+        <h2 class="some-page__subtitle">{{ SOME_PAGE_TEXTS.subTitle }}</h2>
         <div class="some-page__picture">
           <picture>
             <source type="image/png" srcset="@/components/pages/home/images/image.png">
@@ -41,8 +41,8 @@
           </form>
         </div>
         <div class="some-page__submit">
-          <AppButton button-type="primary" :disabled="formProcessingValue" @click="confirmForm">
-            {{ formProcessingValue ? SOME_PAGE_TEXTS.submitButtonProcessing : SOME_PAGE_TEXTS.submitButtonText }}
+          <AppButton button-type="primary" :disabled="isFormProcessing" @click="confirmForm">
+            {{ isFormProcessing ? SOME_PAGE_TEXTS.submitButtonProcessing : SOME_PAGE_TEXTS.submitButtonText }}
           </AppButton>
         </div>
         <div class="some-page__footer">
@@ -54,7 +54,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, defineProps } from "vue";
 
 import { SOME_PAGE_TEXTS, SOME_PAGE_FIELDS } from "@/contants/some-page";
 
@@ -65,11 +65,11 @@ import HeaderIconsDark from "@/components/pages/home/images/bang-dark.png";
 defineProps({
   theme: {
     type: String,
-    default: 'light'
+    required: true,
   }
 });
 
-const formProcessingValue = ref(false);
+const isFormProcessing = ref(false);
 
 function changeFieldValue (field, e) {
   field.value = e.target.value;
@@ -77,8 +77,8 @@ function changeFieldValue (field, e) {
 
 function confirmForm (e) {
   e.preventDefault();
-  formProcessingValue.value = true;
-  setTimeout(() => { formProcessingValue.value = false; }, 1000);
+  isFormProcessing.value = true;
+  setTimeout(() => { isFormProcessing.value = false; }, 1000);
 }
 </script>
 

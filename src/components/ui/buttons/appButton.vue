@@ -15,7 +15,7 @@ defineProps({
     type: String,
     required: true,
     validator (value: string) {
-      return ['primary', 'primary-with-icon'].includes(value);
+      return ['primary'].includes(value);
     },
   }
 });

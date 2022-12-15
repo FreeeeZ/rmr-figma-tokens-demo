@@ -3,12 +3,12 @@
     <div :class="`${String(route?.name)}-page`.toLowerCase()">
       <router-view />
     </div>
-    <div class="top-right-badge">
-      <div class="top-right-badge__content">
-        {{ OTHER_TEXTS.copyrightText }} © {{currentYear}}
-      </div>
-    </div>
   </main>
+  <div class="main-content__badge">
+    <div class="main-content__badge__content">
+      {{ OTHER_TEXTS.copyrightText }} © {{currentYear}}
+    </div>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -21,5 +21,5 @@ const currentYear = new Date().getFullYear();
 </script>
 
 <style lang="scss" scoped>
-@use 'styles/index.scss';
+@use './styles/index.scss';
 </style>

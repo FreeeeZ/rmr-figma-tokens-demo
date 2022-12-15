@@ -3,7 +3,7 @@
 @import "src/components/pages/home/styles/variables/some-page-themes";
 
 .some-page {
-  border-radius: 8px;
+  border-radius: #{$br-large-m}px;
   background: $base-color-neutral-100;
 
   @include some-page-themable($some-page-theme-styles);

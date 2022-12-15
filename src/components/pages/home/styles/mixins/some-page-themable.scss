@@ -39,6 +39,10 @@
         &__submit {
           &:deep(button) {
             background-color: map.get($theme-value, submit-bg);
+
+            &:hover {
+              background-color: map.get($theme-value, submit-bg-hover);
+            }
           }
         }
 

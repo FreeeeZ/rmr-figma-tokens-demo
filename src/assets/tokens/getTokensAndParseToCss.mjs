@@ -7,10 +7,10 @@ const projectPath = 'arturuxui/rmr_tokens'
 const tokenName = 'tokens%2Ejson';
 const tokenUrl = `https://api.github.com/repos/${projectPath}/contents/${tokenName}`;
 
-const cssFormatFile = 'scss';
+const outputFileFormat = 'scss';
 const baseTokenName = 'base-token.json';
 const tokensBuildDir = './src/assets/tokens/json';
-const cssBuildPath = `./src/assets/tokens/${cssFormatFile}/`;
+const cssBuildPath = `./src/assets/tokens/${outputFileFormat}/`;
 
 if (!fs.existsSync(tokensBuildDir)) {
   fs.mkdirSync(tokensBuildDir);
@@ -49,11 +49,11 @@ function buildCss(filename) {
       'source': [`${tokensBuildDir}/${filename}.json`],
       'platforms': {
         'scss': {
-          transformGroup: `${cssFormatFile}`,
+          transformGroup: `${outputFileFormat}`,
           buildPath: `${cssBuildPath}`,
           files: [{
-            destination: `_${filename}.${cssFormatFile}`,
-            format: `${cssFormatFile}/variables`,
+            destination: `_${filename}.${outputFileFormat}`,
+            format: `${outputFileFormat}/variables`,
           }],
         },
       }

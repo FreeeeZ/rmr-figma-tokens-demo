@@ -12,5 +12,5 @@
 </template>
 
 <style lang="scss" scoped>
-@use 'styles/not-found-view';
+@use './styles/not-found-view';
 </style>
