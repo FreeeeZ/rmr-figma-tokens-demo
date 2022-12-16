@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from 'vue-router';
-import Home from '@/views/home/index.vue';
-import NotFound from '@/views/not-found/index.vue';
+import Home from '@/pages/home/index.vue';
+import NotFound from '@/pages/not-found/index.vue';
 
 const baseUrl = '/';
 
