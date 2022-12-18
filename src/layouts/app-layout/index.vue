@@ -9,5 +9,5 @@ import Content from '@/layouts/app-layout/components/content/index.vue';
 </script>
 
 <style lang="scss" scoped>
-@use './styles/index.scss';
+@use './styles/index';
 </style>

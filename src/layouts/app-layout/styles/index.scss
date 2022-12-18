@@ -1,5 +1,7 @@
+@import "src/assets/tokens/scss/_base";
+
 .app-layout {
-  background: #707274;
+  background: $base-color-neutral-50;
   overflow-x: hidden;
   position: relative;
 

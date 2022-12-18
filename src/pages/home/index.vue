@@ -10,10 +10,5 @@ import SomePage from "@/components/pages/home/SomePage.vue";
 </script>
 
 <style lang="scss" scoped>
-.page-wrapper {
-  display: flex;
-  flex-direction: row;
-  column-gap: 40px;
-  justify-content: center;
-}
+@use './styles/index';
 </style>

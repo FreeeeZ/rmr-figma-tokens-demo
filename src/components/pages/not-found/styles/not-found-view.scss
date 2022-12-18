@@ -1,3 +1,5 @@
+@import "src/assets/tokens/scss/_base";
+
 .not-found {
   margin: 30px 0 100px;
 
@@ -10,7 +12,7 @@
     &__title {
       font-weight: 400;
       font-size: 75px;
-      color: #FFF;
+      color: $base-color-neutral-100;
       margin: 0;
     }
   }

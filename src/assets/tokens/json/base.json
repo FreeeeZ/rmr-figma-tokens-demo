@@ -1275,7 +1275,7 @@
         "type": "color"
       },
       "20": {
-        "value": "#333333",
+        "value": "#e6e6e6",
         "type": "color"
       },
       "30": {
@@ -1325,43 +1325,43 @@
     },
     "blue": {
       "10": {
-        "value": "#031630",
+        "value": "#031230",
         "type": "color"
       },
       "20": {
-        "value": "#062b60",
+        "value": "#062460",
         "type": "color"
       },
       "30": {
-        "value": "#084191",
+        "value": "#083691",
         "type": "color"
       },
       "40": {
-        "value": "#0b57c1",
+        "value": "#0b48c1",
         "type": "color"
       },
       "50": {
-        "value": "#0e6df1",
+        "value": "#0e5af1",
         "type": "color"
       },
       "60": {
-        "value": "#3e8af4",
+        "value": "#3e7bf4",
         "type": "color"
       },
       "70": {
-        "value": "#6ea7f7",
+        "value": "#6e9cf7",
         "type": "color"
       },
       "80": {
-        "value": "#9fc4f9",
+        "value": "#9fbdf9",
         "type": "color"
       },
       "90": {
-        "value": "#cfe2fc",
+        "value": "#cfdefc",
         "type": "color"
       },
       "__hue": {
-        "value": 215,
+        "value": 220,
         "type": "color"
       }
     },
@@ -1776,26 +1776,12 @@
   },
   "br": {
     "base": {
-      "value": 4,
+      "value": 8,
       "type": "borderRadius"
     },
     "small": {
       "s": {
-        "value": 2,
-        "type": "borderRadius"
-      },
-      "m": {
-        "value": 6,
-        "type": "borderRadius"
-      },
-      "l": {
-        "value": 8,
-        "type": "borderRadius"
-      }
-    },
-    "medium": {
-      "s": {
-        "value": 10,
+        "value": 4,
         "type": "borderRadius"
       },
       "m": {
@@ -1807,7 +1793,7 @@
         "type": "borderRadius"
       }
     },
-    "large": {
+    "medium": {
       "s": {
         "value": 20,
         "type": "borderRadius"
@@ -1817,7 +1803,21 @@
         "type": "borderRadius"
       },
       "l": {
+        "value": 32,
+        "type": "borderRadius"
+      }
+    },
+    "large": {
+      "s": {
         "value": 40,
+        "type": "borderRadius"
+      },
+      "m": {
+        "value": 48,
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": 80,
         "type": "borderRadius"
       }
     }

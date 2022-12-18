@@ -688,7 +688,7 @@
           "type": "color"
         },
         "20": {
-          "value": "hsla($base_color.neutral.__hue, 0%, 20%, $opacity.100)",
+          "value": "hsla($base_color.neutral.__hue, 0%, 90%, $opacity.100)",
           "type": "color"
         },
         "30": {
@@ -774,7 +774,7 @@
           "type": "color"
         },
         "__hue": {
-          "value": "215",
+          "value": "220",
           "type": "color"
         }
       },
@@ -1189,7 +1189,7 @@
     },
     "br": {
       "base": {
-        "value": "4",
+        "value": "8",
         "type": "borderRadius"
       },
       "small": {
