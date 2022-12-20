@@ -1,6 +1,6 @@
-@import "./container";
-@import "./breakpoints";
-@import "src/assets/scss/_ui/_font-family";
+@import "src/assets/scss/ui/font-family";
+@import "src/assets/scss/global/container";
+@import "src/assets/scss/global/breakpoints";
 
 :root {
   font-family: $inter;
