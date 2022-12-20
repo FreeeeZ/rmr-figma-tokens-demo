@@ -1,11 +1,15 @@
 import fs from 'fs';
+import path from 'path'
 import fetch from 'node-fetch';
 import { exec } from 'child_process';
+import fsPromises from 'fs/promises';
 import StyleDictionary from 'style-dictionary';
+
+const customArgs = process.argv.slice(2);
 
 const repoWithTokensPath = 'arturuxui/rmr_tokens'
 const fileWithTokensName = 'tokens%2Ejson';
-const branchName = 'test';
+const branchName = customArgs[0] || 'main';
 const tokenUrl = `https://api.github.com/repos/${repoWithTokensPath}/contents/${fileWithTokensName}?ref=${branchName}`;
 
 const outputFileFormat = 'scss';
@@ -13,7 +17,16 @@ const baseTokenName = 'base-token.json';
 const tokensBuildDir = './src/assets/tokens/json';
 const cssBuildPath = `./src/assets/tokens/${outputFileFormat}/`;
 
-if (!fs.existsSync(tokensBuildDir)) {
+const pathsForRemove = [tokensBuildDir, cssBuildPath];
+
+if (fs.existsSync(tokensBuildDir)) {
+  for (const pathWithFiles of pathsForRemove) {
+    const files = await fsPromises.readdir(pathWithFiles);
+    for (const file of files) {
+      await fsPromises.unlink(path.resolve(pathWithFiles, file));
+    }
+  }
+} else {
   fs.mkdirSync(tokensBuildDir);
 }
 
@@ -26,10 +39,11 @@ async function getToken() {
 
 const response = await getToken();
 const token = JSON.parse(Buffer.from(response.content, "base64").toString());
+const tokenSetOrderFormTokens = token.$metadata.tokenSetOrder
 
 fs.writeFileSync(`${tokensBuildDir}/${baseTokenName}`, JSON.stringify(token, null, 2));
 
-buildTokensAndCss(token.$metadata.tokenSetOrder);
+buildTokensAndCss(tokenSetOrderFormTokens);
 
 function buildTokensAndCss(files) {
   for (let filename of files) {
