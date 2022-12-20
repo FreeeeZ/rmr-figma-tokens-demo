@@ -3,9 +3,10 @@ import fetch from 'node-fetch';
 import { exec } from 'child_process';
 import StyleDictionary from 'style-dictionary';
 
-const projectPath = 'arturuxui/rmr_tokens'
-const tokenName = 'tokens%2Ejson';
-const tokenUrl = `https://api.github.com/repos/${projectPath}/contents/${tokenName}`;
+const repoWithTokensPath = 'arturuxui/rmr_tokens'
+const fileWithTokensName = 'tokens%2Ejson';
+const branchName = 'test';
+const tokenUrl = `https://api.github.com/repos/${repoWithTokensPath}/contents/${fileWithTokensName}?ref=${branchName}`;
 
 const outputFileFormat = 'scss';
 const baseTokenName = 'base-token.json';

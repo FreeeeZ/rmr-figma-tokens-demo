@@ -1793,12 +1793,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "base",
-      "app_kit",
-      "app_theme-light",
-      "app_style-round",
-      "app_style-square",
-      "app_theme-dark"
+      "base"
     ]
   }
 }
