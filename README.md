@@ -26,8 +26,8 @@ https://github.com/arturuxui/rmr_tokens
 - [x] Write script for get tokens from remote repository
 - [x] Parse json tokens to css/scss
 - [x] Markup example page for demonstrate changes into tokens
+- [x] Setup Token transformer for correct parsing arrays
 - [ ] Make this repo auto update. Write git hook for figma tokens auto deploy when changes is available
-- [ ] Setup StyleDictionary for correct parsing arrays
 
 ## Quick start
 
