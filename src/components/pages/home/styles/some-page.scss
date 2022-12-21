@@ -10,7 +10,7 @@
 
   &__wrapper {
     width: 375px;
-    padding: 65px 16px 16px;
+    padding: 65px #{$space-app-kit-body-margins}px #{$space-app-kit-body-margins}px;
     display: grid;
     position: relative;
     box-sizing: border-box;
@@ -34,7 +34,7 @@
   &__time {
     font-weight: 600;
     font-size: 17px;
-    line-height: 22px;
+    line-height: #{$lh-fixed-22}px;
     letter-spacing: -0.408px;
   }
 
@@ -55,7 +55,7 @@
     font-size: #{$typo-title-middle-font-size}px;
     line-height: #{$typo-title-middle-line-height}px;
     letter-spacing: -0.408px;
-    margin: 0 0 16px;
+    margin: #{$space-app-kit-header-title-tb}px #{$space-app-kit-header-title-lr}px;
   }
 
   &__subtitle {
@@ -64,15 +64,21 @@
     font-size: #{$typo-subtitle-small-font-size}px;
     line-height: #{$typo-subtitle-small-line-height}px;
     letter-spacing: -0.408px;
-    margin: 0 0 44px;
+    margin: #{$space-app-kit-header-subtitle-tb}px #{$space-app-kit-header-subtitle-lr}px;
   }
 
   &__picture {
-    margin: 0 0 56px;
+    margin: #{$space-app-kit-images-tb}px #{$space-app-kit-images-lr}px;
+
+    &:deep(.app-picture) {
+      img {
+        border-radius: #{$br-app-style-round-image}px;
+      }
+    }
   }
 
   &__fields {
-    margin: 0 0 16px;
+    margin: #{$space-app-kit-field-tb}px 0;
 
     form {
       width: 100%;
@@ -83,7 +89,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        row-gap: 8px;
+        row-gap: #{$space-app-kit-field-stack-gap}px;
         margin-inline-start: 0;
         margin-inline-end: 0;
       }
@@ -95,6 +101,7 @@
 
     input {
       width: 100%;
+      border-radius: #{$br-app-style-round-field}px;
 
       &::placeholder {
         letter-spacing: -0.408px;
@@ -103,11 +110,11 @@
   }
 
   &__submit {
-    margin: 0 0 39px;
+    margin: 0 0 #{$space-app-kit-actions-wrapper-bottom}px;
 
     &:deep(button) {
       width: 100%;
-      border-radius: 8px;
+      border-radius: #{$br-app-style-round-actions}px;
     }
   }
 

@@ -1705,7 +1705,7 @@
     },
     "br": {
       "base": {
-        "value": "8",
+        "value": "4",
         "type": "borderRadius"
       },
       "small": {

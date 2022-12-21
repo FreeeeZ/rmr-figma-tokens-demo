@@ -8,19 +8,29 @@
           </div>
           <div class="some-page__bang" />
           <div class="some-page__icons">
-            <picture>
-              <source type="image/png" :srcset="theme === 'dark' ? HeaderIconsLight : HeaderIconsDark">
-              <img :src="theme === 'dark' ? HeaderIconsLight : HeaderIconsDark" alt="Header icons" width="78">
-            </picture>
+            <AppPicture
+              :picture-src-set="theme === 'dark' ? HeaderIconsLight : HeaderIconsDark"
+              picture-src-type="image/png"
+              :picture-base-url="theme === 'dark' ? HeaderIconsLight : HeaderIconsDark"
+              picture-alt-text="Header icons"
+              picture-width="78"
+            />
           </div>
         </div>
-        <h1 class="some-page__title">{{ SOME_PAGE_TEXTS.title }}</h1>
-        <h2 class="some-page__subtitle">{{ SOME_PAGE_TEXTS.subTitle }}</h2>
+        <h1 class="some-page__title">
+          {{ SOME_PAGE_TEXTS.title }}
+        </h1>
+        <h2 class="some-page__subtitle">
+          {{ SOME_PAGE_TEXTS.subTitle }}
+        </h2>
         <div class="some-page__picture">
-          <picture>
-            <source type="image/png" srcset="@/components/pages/home/images/image.png">
-            <img src="@/components/pages/home/images/image.png" alt="Some pic" width="263">
-          </picture>
+          <AppPicture
+            :picture-src-set="SomePageImage"
+            picture-src-type="image/png"
+            :picture-base-url="SomePageImage"
+            picture-alt-text="Some image"
+            picture-width="263"
+          />
         </div>
         <div class="some-page__fields">
           <form>
@@ -59,6 +69,9 @@ import { ref, defineProps } from "vue";
 import { SOME_PAGE_TEXTS, SOME_PAGE_FIELDS } from "@/contants/some-page";
 
 import AppButton from "@/components/ui/buttons/appButton.vue";
+import AppPicture from "@/components/ui/pictures/appPicture.vue";
+
+import SomePageImage from "@/components/pages/home/images/image.png";
 import HeaderIconsDark from "@/components/pages/home/images/bang-dark.png";
 import HeaderIconsLight from "@/components/pages/home/images/bang-light.png";
 
