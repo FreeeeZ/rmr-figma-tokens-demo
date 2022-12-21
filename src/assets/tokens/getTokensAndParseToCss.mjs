@@ -19,6 +19,20 @@ const cssBuildPath = `./src/assets/tokens/${outputFileFormat}/`;
 
 const pathsForRemove = [tokensBuildDir, cssBuildPath];
 
+async function getFileWithTokens() {
+  const res = await fetch(tokenUrl, {
+    method: 'GET'
+  });
+
+  if (res.status === 200) {
+    return await res.json()
+  } else {
+    throw new Error(res.statusText)
+  }
+}
+
+const response = await getFileWithTokens();
+
 if (fs.existsSync(tokensBuildDir)) {
   for (const pathWithFiles of pathsForRemove) {
     const files = await fsPromises.readdir(pathWithFiles);
@@ -30,14 +44,6 @@ if (fs.existsSync(tokensBuildDir)) {
   fs.mkdirSync(tokensBuildDir);
 }
 
-async function getToken() {
-  const res = await fetch(tokenUrl, {
-    method: 'GET'
-  });
-  return await res.json();
-}
-
-const response = await getToken();
 const token = JSON.parse(Buffer.from(response.content, "base64").toString());
 const tokenSetOrderFormTokens = token.$metadata.tokenSetOrder
 
