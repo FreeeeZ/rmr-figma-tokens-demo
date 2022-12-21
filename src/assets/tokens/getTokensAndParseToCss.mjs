@@ -16,6 +16,7 @@ const outputFileFormat = 'scss';
 const baseTokenName = 'base-token.json';
 const tokensBuildDir = './src/assets/tokens/json';
 const cssBuildPath = `./src/assets/tokens/${outputFileFormat}/`;
+const tokenTransformerArgs = '--expandTypography=true --expandShadow=true --expandComposition=true --preserveRawValue: true';
 
 const pathsForRemove = [tokensBuildDir, cssBuildPath];
 
@@ -59,7 +60,7 @@ function buildTokensAndCss(files) {
 
 function buildToken(filename, callback) {
   exec(
-    `node node_modules/token-transformer ${tokensBuildDir}/${baseTokenName} ${tokensBuildDir}/${filename}.json ${filename} --expandTypography=true`,
+    `node node_modules/token-transformer ${tokensBuildDir}/${baseTokenName} ${tokensBuildDir}/${filename}.json ${filename} ${tokenTransformerArgs}`,
     callback
   );
 }

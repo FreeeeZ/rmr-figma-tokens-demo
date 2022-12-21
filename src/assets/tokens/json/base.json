@@ -27,128 +27,305 @@
   },
   "state_shadow": {
     "default": {
-      "value": {
-        "x": 0,
-        "y": 2,
-        "blur": 0,
-        "spread": 0,
-        "color": "#1a1a1a",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 2,
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#1a1a1a",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "hover": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 0,
-        "spread": 0,
-        "color": "#1a1a1a33",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 1,
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#1a1a1a33",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "pressed": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 0,
-        "spread": 0,
-        "color": "#1a1a1a66",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 1,
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#1a1a1a66",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     }
   },
   "app_theme-light_shadow": {
     "container": {
       "small": {
-        "value": [
-          {
-            "x": 0,
-            "y": 6,
-            "blur": 20,
-            "spread": 0,
-            "color": "#1a1a1a1f",
-            "type": "dropShadow"
+        "0": {
+          "x": {
+            "value": 0,
+            "type": "x"
           },
-          {
-            "x": 0,
-            "y": 2,
-            "blur": 2,
-            "spread": 0,
-            "color": "#1a1a1a14",
-            "type": "dropShadow"
+          "y": {
+            "value": 6,
+            "type": "y"
+          },
+          "blur": {
+            "value": 20,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a1f",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
           }
-        ],
-        "type": "boxShadow"
+        },
+        "1": {
+          "x": {
+            "value": 0,
+            "type": "x"
+          },
+          "y": {
+            "value": 2,
+            "type": "y"
+          },
+          "blur": {
+            "value": 2,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a14",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        }
       },
       "medium": {
-        "value": [
-          {
-            "x": 0,
-            "y": 12,
-            "blur": 40,
-            "spread": 0,
-            "color": "#1a1a1a33",
-            "type": "dropShadow"
+        "0": {
+          "x": {
+            "value": 0,
+            "type": "x"
           },
-          {
-            "x": 0,
-            "y": 1,
-            "blur": 1,
-            "spread": 0,
-            "color": "#1a1a1a14",
-            "type": "dropShadow"
+          "y": {
+            "value": 12,
+            "type": "y"
+          },
+          "blur": {
+            "value": 40,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a33",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
           }
-        ],
-        "type": "boxShadow"
+        },
+        "1": {
+          "x": {
+            "value": 0,
+            "type": "x"
+          },
+          "y": {
+            "value": 1,
+            "type": "y"
+          },
+          "blur": {
+            "value": 1,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a14",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        }
       }
     }
   },
   "app_theme-dark_shadow": {
     "container": {
       "small": {
-        "value": [
-          {
-            "x": 0,
-            "y": 6,
-            "blur": 20,
-            "spread": 0,
-            "color": "#1a1a1a1f",
-            "type": "dropShadow"
+        "0": {
+          "x": {
+            "value": 0,
+            "type": "x"
           },
-          {
-            "x": 0,
-            "y": 2,
-            "blur": 2,
-            "spread": 0,
-            "color": "#1a1a1a14",
-            "type": "dropShadow"
+          "y": {
+            "value": 6,
+            "type": "y"
+          },
+          "blur": {
+            "value": 20,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a1f",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
           }
-        ],
-        "type": "boxShadow"
+        },
+        "1": {
+          "x": {
+            "value": 0,
+            "type": "x"
+          },
+          "y": {
+            "value": 2,
+            "type": "y"
+          },
+          "blur": {
+            "value": 2,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a14",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        }
       },
       "medium": {
-        "value": [
-          {
-            "x": 0,
-            "y": 12,
-            "blur": 40,
-            "spread": 0,
-            "color": "#1a1a1a33",
-            "type": "dropShadow"
+        "0": {
+          "x": {
+            "value": 0,
+            "type": "x"
           },
-          {
-            "x": 0,
-            "y": 1,
-            "blur": 1,
-            "spread": 0,
-            "color": "#1a1a1a14",
-            "type": "dropShadow"
+          "y": {
+            "value": 12,
+            "type": "y"
+          },
+          "blur": {
+            "value": 40,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a33",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
           }
-        ],
-        "type": "boxShadow"
+        },
+        "1": {
+          "x": {
+            "value": 0,
+            "type": "x"
+          },
+          "y": {
+            "value": 1,
+            "type": "y"
+          },
+          "blur": {
+            "value": 1,
+            "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#1a1a1a14",
+            "type": "color"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        }
       }
     }
   },
