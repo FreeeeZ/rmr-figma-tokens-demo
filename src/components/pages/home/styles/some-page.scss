@@ -1,5 +1,5 @@
 @import "src/assets/tokens/scss/base";
-@import "src/assets/scss/global/animations.scss";
+@import "src/assets/scss/global/animations";
 @import "src/components/pages/home/styles/mixins/some-page-themable";
 @import "src/components/pages/home/styles/variables/some-page-themes";
 
@@ -12,7 +12,7 @@
 
   &__wrapper {
     width: 375px;
-    padding: 65px #{$space-app-kit-body-margins} #{$space-app-kit-body-margins};
+    padding: 65px $space-app-kit-body-margins $space-app-kit-body-margins;
     display: grid;
     position: relative;
     box-sizing: border-box;
@@ -37,7 +37,7 @@
   &__time {
     font-weight: 600;
     font-size: 17px;
-    line-height: #{$lh-fixed-22};
+    line-height: $lh-fixed-22;
     letter-spacing: -0.408px;
     transition: $base-transition-rule;
   }
@@ -57,37 +57,37 @@
   &__title {
     font-style: normal;
     font-weight: 600;
-    font-size: #{$typo-title-middle-font-size};
-    line-height: #{$typo-title-middle-line-height};
+    font-size: $typo-title-middle-font-size;
+    line-height: $typo-title-middle-line-height;
     letter-spacing: -0.408px;
-    margin: #{$space-app-kit-header-title-tb} #{$space-app-kit-header-title-lr};
+    margin: $space-app-kit-header-title-tb $space-app-kit-header-title-lr;
     transition: $base-transition-rule;
   }
 
   &__subtitle {
     font-style: normal;
     font-weight: 600;
-    font-size: #{$typo-subtitle-small-font-size};
-    line-height: #{$typo-subtitle-small-line-height};
+    font-size: $typo-subtitle-small-font-size;
+    line-height: $typo-subtitle-small-line-height;
     letter-spacing: -0.408px;
-    margin: #{$space-app-kit-header-subtitle-tb} #{$space-app-kit-header-subtitle-lr};
+    margin: $space-app-kit-header-subtitle-tb $space-app-kit-header-subtitle-lr;
     transition: $base-transition-rule;
   }
 
   &__picture {
-    margin: #{$space-app-kit-images-tb} #{$space-app-kit-images-lr};
+    margin: $space-app-kit-images-tb $space-app-kit-images-lr;
     transition: $base-transition-rule;
 
     &:deep(.app-picture) {
       img {
-        border-radius: #{$br-app-style-round-image};
+        border-radius: $br-app-style-round-image;
         transition: $base-transition-rule;
       }
     }
   }
 
   &__fields {
-    margin: #{$space-app-kit-field-tb} 0;
+    margin: $space-app-kit-field-tb 0;
     transition: $base-transition-rule;
 
     form {
@@ -99,7 +99,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        row-gap: #{$space-app-kit-field-stack-gap};
+        row-gap: $space-app-kit-field-stack-gap;
         margin-inline-start: 0;
         margin-inline-end: 0;
         transition: $base-transition-rule;
@@ -112,7 +112,7 @@
 
     input {
       width: 100%;
-      border-radius: #{$br-app-style-round-field};
+      border-radius: $br-app-style-round-field;
       transition: $base-transition-rule;
 
       &::placeholder {
@@ -124,12 +124,12 @@
   }
 
   &__submit {
-    margin: 0 0 #{$space-app-kit-actions-wrapper-bottom};
+    margin: 0 0 $space-app-kit-actions-wrapper-bottom;
     transition: $base-transition-rule;
 
     &:deep(button) {
       width: 100%;
-      border-radius: #{$br-app-style-round-actions};
+      border-radius: $br-app-style-round-actions;
       transition: $base-transition-rule;
     }
   }

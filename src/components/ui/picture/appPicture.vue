@@ -14,7 +14,7 @@
   </picture>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 defineProps({
   pictureSrcSet: {
     type: String,

@@ -8,15 +8,14 @@
   </component>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 defineProps({
   headingType: {
     type: String,
-    required: true
+    required: true,
+    validator (value: string) {
+      return ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(value);
+    },
   }
 });
 </script>
-
-<style lang="scss" scoped>
-@use './styles/app-heading';
-</style>
