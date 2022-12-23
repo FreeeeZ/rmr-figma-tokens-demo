@@ -19,12 +19,12 @@
             />
           </div>
         </div>
-        <h1 class="some-page__title">
+        <AppHeading class="some-page__title" heading-type="h1">
           {{ SOME_PAGE_TEXTS.title }}
-        </h1>
-        <h2 class="some-page__subtitle">
+        </AppHeading>
+        <AppHeading class="some-page__subtitle" heading-type="h2">
           {{ SOME_PAGE_TEXTS.subTitle }}
-        </h2>
+        </AppHeading>
         <div class="some-page__picture">
           <AppPicture
             :picture-src-set="SomePageImage"
@@ -78,12 +78,13 @@ import { ref, defineProps } from "vue";
 
 import { SOME_PAGE_TEXTS, SOME_PAGE_FIELDS } from "@/contants/some-page";
 
-import AppButton from "@/components/ui/buttons/appButton.vue";
-import AppPicture from "@/components/ui/pictures/appPicture.vue";
+import AppButton from "@/components/ui/button/appButton.vue";
+import AppPicture from "@/components/ui/picture/appPicture.vue";
 
 import SomePageImage from "@/components/pages/home/images/image.png";
 import HeaderIconsDark from "@/components/pages/home/images/bang-dark.png";
 import HeaderIconsLight from "@/components/pages/home/images/bang-light.png";
+import AppHeading from "@/components/ui/typography/heading/appHeading.vue";
 
 defineProps({
   theme: {

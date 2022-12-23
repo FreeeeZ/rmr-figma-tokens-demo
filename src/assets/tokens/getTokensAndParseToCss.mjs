@@ -1,8 +1,6 @@
 import fs from 'fs';
-import path from 'path'
 import fetch from 'node-fetch';
 import { exec } from 'child_process';
-import fsPromises from 'fs/promises';
 import StyleDictionary from 'style-dictionary';
 
 const customArgs = process.argv.slice(2);
@@ -18,8 +16,6 @@ const tokensBuildDir = './src/assets/tokens/json';
 const cssBuildPath = `./src/assets/tokens/${outputFileFormat}/`;
 const tokenTransformerArgs = '--expandTypography=true --expandShadow=true --expandComposition=true --preserveRawValue: true';
 
-const pathsForRemove = [tokensBuildDir, cssBuildPath];
-
 async function getFileWithTokens() {
   const res = await fetch(tokenUrl, {
     method: 'GET'
@@ -32,19 +28,11 @@ async function getFileWithTokens() {
   }
 }
 
-const response = await getFileWithTokens();
-
-if (fs.existsSync(tokensBuildDir)) {
-  for (const pathWithFiles of pathsForRemove) {
-    const files = await fsPromises.readdir(pathWithFiles);
-    for (const file of files) {
-      await fsPromises.unlink(path.resolve(pathWithFiles, file));
-    }
-  }
-} else {
+if (!fs.existsSync(tokensBuildDir)) {
   fs.mkdirSync(tokensBuildDir);
 }
 
+const response = await getFileWithTokens();
 const token = JSON.parse(Buffer.from(response.content, "base64").toString());
 const tokenSetOrderFormTokens = token.$metadata.tokenSetOrder
 

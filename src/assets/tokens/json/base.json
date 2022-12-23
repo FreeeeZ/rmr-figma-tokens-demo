@@ -28,19 +28,19 @@
   "state_shadow": {
     "default": {
       "x": {
-        "value": 0,
+        "value": "0px",
         "type": "x"
       },
       "y": {
-        "value": 2,
+        "value": "2px",
         "type": "y"
       },
       "blur": {
-        "value": 0,
+        "value": "0px",
         "type": "blur"
       },
       "spread": {
-        "value": 0,
+        "value": "0px",
         "type": "spread"
       },
       "color": {
@@ -54,19 +54,19 @@
     },
     "hover": {
       "x": {
-        "value": 0,
+        "value": "0px",
         "type": "x"
       },
       "y": {
-        "value": 1,
+        "value": "1px",
         "type": "y"
       },
       "blur": {
-        "value": 0,
+        "value": "0px",
         "type": "blur"
       },
       "spread": {
-        "value": 0,
+        "value": "0px",
         "type": "spread"
       },
       "color": {
@@ -80,19 +80,19 @@
     },
     "pressed": {
       "x": {
-        "value": 0,
+        "value": "0px",
         "type": "x"
       },
       "y": {
-        "value": 1,
+        "value": "1px",
         "type": "y"
       },
       "blur": {
-        "value": 0,
+        "value": "0px",
         "type": "blur"
       },
       "spread": {
-        "value": 0,
+        "value": "0px",
         "type": "spread"
       },
       "color": {
@@ -110,19 +110,19 @@
       "small": {
         "0": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 6,
+            "value": "6px",
             "type": "y"
           },
           "blur": {
-            "value": 20,
+            "value": "20px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -136,19 +136,19 @@
         },
         "1": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 2,
+            "value": "2px",
             "type": "y"
           },
           "blur": {
-            "value": 2,
+            "value": "2px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -164,19 +164,19 @@
       "medium": {
         "0": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 12,
+            "value": "12px",
             "type": "y"
           },
           "blur": {
-            "value": 40,
+            "value": "40px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -190,19 +190,19 @@
         },
         "1": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 1,
+            "value": "1px",
             "type": "y"
           },
           "blur": {
-            "value": 1,
+            "value": "1px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -222,19 +222,19 @@
       "small": {
         "0": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 6,
+            "value": "6px",
             "type": "y"
           },
           "blur": {
-            "value": 20,
+            "value": "20px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -248,19 +248,19 @@
         },
         "1": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 2,
+            "value": "2px",
             "type": "y"
           },
           "blur": {
-            "value": 2,
+            "value": "2px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -276,19 +276,19 @@
       "medium": {
         "0": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 12,
+            "value": "12px",
             "type": "y"
           },
           "blur": {
-            "value": 40,
+            "value": "40px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -302,19 +302,19 @@
         },
         "1": {
           "x": {
-            "value": 0,
+            "value": "0px",
             "type": "x"
           },
           "y": {
-            "value": 1,
+            "value": "1px",
             "type": "y"
           },
           "blur": {
-            "value": 1,
+            "value": "1px",
             "type": "blur"
           },
           "spread": {
-            "value": 0,
+            "value": "0px",
             "type": "spread"
           },
           "color": {
@@ -338,35 +338,35 @@
   "lh": {
     "fixed": {
       "22": {
-        "value": 22,
+        "value": "22px",
         "type": "lineHeights"
       },
       "24": {
-        "value": 24,
+        "value": "24px",
         "type": "lineHeights"
       },
       "32": {
-        "value": 32,
+        "value": "32px",
         "type": "lineHeights"
       },
       "40": {
-        "value": 40,
+        "value": "40px",
         "type": "lineHeights"
       },
       "44": {
-        "value": 44,
+        "value": "44px",
         "type": "lineHeights"
       },
       "56": {
-        "value": 56,
+        "value": "56px",
         "type": "lineHeights"
       },
       "64": {
-        "value": 64,
+        "value": "64px",
         "type": "lineHeights"
       },
       "80": {
-        "value": 80,
+        "value": "80px",
         "type": "lineHeights"
       }
     },
@@ -432,80 +432,80 @@
   "fs": {
     "small": {
       "xs": {
-        "value": 10,
+        "value": "10px",
         "type": "fontSizes"
       },
       "s": {
-        "value": 11,
+        "value": "11px",
         "type": "fontSizes"
       },
       "xm": {
-        "value": 12,
+        "value": "12px",
         "type": "fontSizes"
       },
       "m": {
-        "value": 13,
+        "value": "13px",
         "type": "fontSizes"
       },
       "l": {
-        "value": 14,
+        "value": "14px",
         "type": "fontSizes"
       },
       "xl": {
-        "value": 16,
+        "value": "16px",
         "type": "fontSizes"
       },
       "xxl": {
-        "value": 18,
+        "value": "18px",
         "type": "fontSizes"
       }
     },
     "medium": {
       "xs": {
-        "value": 20,
+        "value": "20px",
         "type": "fontSizes"
       },
       "s": {
-        "value": 24,
+        "value": "24px",
         "type": "fontSizes"
       },
       "xm": {
-        "value": 28,
+        "value": "28px",
         "type": "fontSizes"
       },
       "m": {
-        "value": 32,
+        "value": "32px",
         "type": "fontSizes"
       },
       "l": {
-        "value": 36,
+        "value": "36px",
         "type": "fontSizes"
       },
       "xl": {
-        "value": 40,
+        "value": "40px",
         "type": "fontSizes"
       },
       "xxl": {
-        "value": 44,
+        "value": "44px",
         "type": "fontSizes"
       }
     },
     "large": {
       "xs": {
-        "value": 48,
+        "value": "48px",
         "type": "fontSizes"
       },
       "s": {
-        "value": 56,
+        "value": "56px",
         "type": "fontSizes"
       },
       "xm": {
-        "value": 64,
+        "value": "64px",
         "type": "fontSizes"
       }
     },
     "base": {
-      "value": 8,
+      "value": "8px",
       "type": "fontSizes"
     }
   },
@@ -525,11 +525,11 @@
   },
   "ps": {
     "zero": {
-      "value": 0,
+      "value": "0px",
       "type": "paragraphSpacing"
     },
     "def": {
-      "value": 12,
+      "value": "12px",
       "type": "paragraphSpacing"
     }
   },
@@ -549,7 +549,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 64,
+          "value": "64px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -557,7 +557,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -579,11 +579,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 64,
+          "value": "64px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 56,
+          "value": "56px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -591,7 +591,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -613,11 +613,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 56,
+          "value": "56px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 48,
+          "value": "48px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -625,7 +625,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -649,11 +649,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 44,
+          "value": "44px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 36,
+          "value": "36px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -661,7 +661,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -683,11 +683,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 40,
+          "value": "40px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 32,
+          "value": "32px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -695,7 +695,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -717,11 +717,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 32,
+          "value": "32px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 28,
+          "value": "28px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -729,7 +729,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -753,11 +753,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 32,
+          "value": "32px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 24,
+          "value": "24px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -765,7 +765,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -787,11 +787,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 24,
+          "value": "24px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 20,
+          "value": "20px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -799,7 +799,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -821,11 +821,11 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": 22,
+          "value": "22px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 18,
+          "value": "18px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -833,7 +833,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -861,7 +861,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 16,
+          "value": "16px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -869,7 +869,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -895,7 +895,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 16,
+          "value": "16px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -903,7 +903,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -929,7 +929,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 16,
+          "value": "16px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -937,7 +937,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -963,7 +963,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 14,
+          "value": "14px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -971,7 +971,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -997,7 +997,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 14,
+          "value": "14px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1005,7 +1005,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1031,7 +1031,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 14,
+          "value": "14px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1039,7 +1039,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1065,7 +1065,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": "12px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1073,7 +1073,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1099,7 +1099,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": "12px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1107,7 +1107,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1133,7 +1133,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": "12px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1141,7 +1141,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1169,7 +1169,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 13,
+          "value": "13px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1177,7 +1177,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1203,7 +1203,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": "12px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1211,7 +1211,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1237,7 +1237,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 10,
+          "value": "10px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1245,7 +1245,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1273,7 +1273,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 16,
+          "value": "16px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1281,7 +1281,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1307,7 +1307,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 14,
+          "value": "14px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1315,7 +1315,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1341,7 +1341,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": "12px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1349,7 +1349,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1377,7 +1377,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": "12px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1385,7 +1385,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1411,7 +1411,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 14,
+          "value": "14px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1419,7 +1419,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1445,7 +1445,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": "12px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1453,7 +1453,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1479,7 +1479,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 11,
+          "value": "11px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1487,7 +1487,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1512,11 +1512,11 @@
             "type": "fontWeights"
           },
           "lineHeight": {
-            "value": 40,
+            "value": "40px",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": 32,
+            "value": "32px",
             "type": "fontSizes"
           },
           "letterSpacing": {
@@ -1524,7 +1524,7 @@
             "type": "letterSpacing"
           },
           "paragraphSpacing": {
-            "value": 0,
+            "value": "0px",
             "type": "paragraphSpacing"
           },
           "textCase": {
@@ -1546,11 +1546,11 @@
             "type": "fontWeights"
           },
           "lineHeight": {
-            "value": 22,
+            "value": "22px",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": 18,
+            "value": "18px",
             "type": "fontSizes"
           },
           "letterSpacing": {
@@ -1558,7 +1558,7 @@
             "type": "letterSpacing"
           },
           "paragraphSpacing": {
-            "value": 0,
+            "value": "0px",
             "type": "paragraphSpacing"
           },
           "textCase": {
@@ -1585,7 +1585,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 14,
+          "value": "14px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1593,7 +1593,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 0,
+          "value": "0px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1619,7 +1619,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 14,
+          "value": "14px",
           "type": "fontSizes"
         },
         "letterSpacing": {
@@ -1627,7 +1627,7 @@
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": 12,
+          "value": "12px",
           "type": "paragraphSpacing"
         },
         "textCase": {
@@ -1960,7 +1960,7 @@
     },
     "surface": {
       "primary": {
-        "value": "#0e5af1",
+        "value": "#2dd25c",
         "type": "color"
       },
       "secondary": {
@@ -2000,7 +2000,7 @@
     },
     "accent": {
       "primary": {
-        "value": "#0e5af1",
+        "value": "#2dd25c",
         "type": "color"
       },
       "negative": {
@@ -2068,7 +2068,7 @@
     },
     "button": {
       "primary": {
-        "value": "#0e5af1",
+        "value": "#2dd25c",
         "type": "color"
       },
       "onPrimary": {
@@ -2100,7 +2100,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "#333333",
+        "value": "#5e3c08",
         "type": "color"
       },
       "tertiary": {
@@ -2110,7 +2110,7 @@
     },
     "surface": {
       "primary": {
-        "value": "#0b48c1",
+        "value": "#24a849",
         "type": "color"
       },
       "secondary": {
@@ -2150,7 +2150,7 @@
     },
     "accent": {
       "primary": {
-        "value": "#0b48c1",
+        "value": "#24a849",
         "type": "color"
       },
       "negative": {
@@ -2218,7 +2218,7 @@
     },
     "button": {
       "primary": {
-        "value": "#0b48c1",
+        "value": "#24a849",
         "type": "color"
       },
       "onPrimary": {
@@ -2245,108 +2245,108 @@
   },
   "space": {
     "base": {
-      "value": 8,
+      "value": "8px",
       "type": "spacing"
     },
     "small": {
       "zero": {
-        "value": 0,
+        "value": "0px",
         "type": "spacing"
       },
       "line_tiny": {
-        "value": 1,
+        "value": "1px",
         "type": "spacing"
       },
       "line": {
-        "value": 2,
+        "value": "2px",
         "type": "spacing"
       },
       "line_bold": {
-        "value": 4,
+        "value": "4px",
         "type": "spacing"
       },
       "def_small": {
-        "value": 12,
+        "value": "12px",
         "type": "spacing"
       },
       "def": {
-        "value": 16,
+        "value": "16px",
         "type": "spacing"
       },
       "def_mid": {
-        "value": 24,
+        "value": "24px",
         "type": "spacing"
       },
       "def_double": {
-        "value": 28,
+        "value": "28px",
         "type": "spacing"
       }
     },
     "medium": {
       "zero": {
-        "value": 32,
+        "value": "32px",
         "type": "spacing"
       },
       "line_tiny": {
-        "value": 36,
+        "value": "36px",
         "type": "spacing"
       },
       "line": {
-        "value": 40,
+        "value": "40px",
         "type": "spacing"
       },
       "line_bold": {
-        "value": 44,
+        "value": "44px",
         "type": "spacing"
       },
       "def": {
-        "value": 48,
+        "value": "48px",
         "type": "spacing"
       },
       "def_mid": {
-        "value": 56,
+        "value": "56px",
         "type": "spacing"
       },
       "def_double": {
-        "value": 64,
+        "value": "64px",
         "type": "spacing"
       },
       "big": {
-        "value": 72,
+        "value": "72px",
         "type": "spacing"
       }
     },
     "large": {
       "zero": {
-        "value": 80,
+        "value": "80px",
         "type": "spacing"
       },
       "line_tiny": {
-        "value": 88,
+        "value": "88px",
         "type": "spacing"
       },
       "line": {
-        "value": 96,
+        "value": "96px",
         "type": "spacing"
       },
       "line_bold": {
-        "value": 104,
+        "value": "104px",
         "type": "spacing"
       },
       "def": {
-        "value": 120,
+        "value": "120px",
         "type": "spacing"
       },
       "def_mid": {
-        "value": 144,
+        "value": "144px",
         "type": "spacing"
       },
       "def_double": {
-        "value": 160,
+        "value": "160px",
         "type": "spacing"
       },
       "big": {
-        "value": 200,
+        "value": "200px",
         "type": "spacing"
       }
     },
@@ -2354,86 +2354,86 @@
       "header": {
         "title": {
           "tb": {
-            "value": 12,
+            "value": "12px",
             "type": "spacing"
           },
           "lr": {
-            "value": 8,
+            "value": "8px",
             "type": "spacing"
           }
         },
         "subtitle": {
           "tb": {
-            "value": 4,
+            "value": "4px",
             "type": "spacing"
           },
           "lr": {
-            "value": 12,
+            "value": "12px",
             "type": "spacing"
           }
         },
         "gap": {
-          "value": 0,
+          "value": "0px",
           "type": "spacing"
         }
       },
       "body": {
         "margins": {
-          "value": 16,
+          "value": "16px",
           "type": "spacing"
         },
         "gap": {
-          "value": 0,
+          "value": "0px",
           "type": "spacing"
         }
       },
       "images": {
         "tb": {
-          "value": 40,
+          "value": "40px",
           "type": "spacing"
         },
         "lr": {
-          "value": 40,
+          "value": "40px",
           "type": "spacing"
         }
       },
       "actions": {
         "tb": {
-          "value": 14,
+          "value": "14px",
           "type": "spacing"
         },
         "lr": {
-          "value": 24,
+          "value": "24px",
           "type": "spacing"
         },
         "gap": {
-          "value": 16,
+          "value": "16px",
           "type": "spacing"
         },
         "wrapper_bottom": {
-          "value": 32,
+          "value": "32px",
           "type": "spacing"
         }
       },
       "field": {
         "tb": {
-          "value": 14,
+          "value": "14px",
           "type": "spacing"
         },
         "lr": {
-          "value": 12,
+          "value": "12px",
           "type": "spacing"
         },
         "gap": {
-          "value": 12,
+          "value": "12px",
           "type": "spacing"
         },
         "stack_gap": {
-          "value": 8,
+          "value": "8px",
           "type": "spacing"
         },
         "stack_tb": {
-          "value": 16,
+          "value": "16px",
           "type": "spacing"
         }
       }
@@ -2441,147 +2441,147 @@
   },
   "size": {
     "base": {
-      "value": 8,
+      "value": "8px",
       "type": "sizing"
     },
     "small": {
       "zero": {
-        "value": 0,
+        "value": "0px",
         "type": "sizing"
       },
       "line_tiny": {
-        "value": 1,
+        "value": "1px",
         "type": "sizing"
       },
       "line": {
-        "value": 2,
+        "value": "2px",
         "type": "sizing"
       },
       "line_bold": {
-        "value": 4,
+        "value": "4px",
         "type": "sizing"
       },
       "def_small": {
-        "value": 12,
+        "value": "12px",
         "type": "sizing"
       },
       "def": {
-        "value": 16,
+        "value": "16px",
         "type": "sizing"
       },
       "def_mid": {
-        "value": 24,
+        "value": "24px",
         "type": "sizing"
       },
       "def_double": {
-        "value": 28,
+        "value": "28px",
         "type": "sizing"
       }
     },
     "medium": {
       "zero": {
-        "value": 32,
+        "value": "32px",
         "type": "sizing"
       },
       "line_tiny": {
-        "value": 36,
+        "value": "36px",
         "type": "sizing"
       },
       "line": {
-        "value": 40,
+        "value": "40px",
         "type": "sizing"
       },
       "line_bold": {
-        "value": 44,
+        "value": "44px",
         "type": "sizing"
       },
       "def": {
-        "value": 48,
+        "value": "48px",
         "type": "sizing"
       },
       "def_mid": {
-        "value": 56,
+        "value": "56px",
         "type": "sizing"
       },
       "def_double": {
-        "value": 64,
+        "value": "64px",
         "type": "sizing"
       },
       "big": {
-        "value": 72,
+        "value": "72px",
         "type": "sizing"
       }
     },
     "large": {
       "zero": {
-        "value": 80,
+        "value": "80px",
         "type": "sizing"
       },
       "line_tiny": {
-        "value": 88,
+        "value": "88px",
         "type": "sizing"
       },
       "line": {
-        "value": 96,
+        "value": "96px",
         "type": "sizing"
       },
       "line_bold": {
-        "value": 104,
+        "value": "104px",
         "type": "sizing"
       },
       "def": {
-        "value": 120,
+        "value": "120px",
         "type": "sizing"
       },
       "def_mid": {
-        "value": 144,
+        "value": "144px",
         "type": "sizing"
       },
       "def_double": {
-        "value": 160,
+        "value": "160px",
         "type": "sizing"
       },
       "big": {
-        "value": 200,
+        "value": "200px",
         "type": "sizing"
       }
     }
   },
   "bw": {
     "base": {
-      "value": 4,
+      "value": "4px",
       "type": "borderWidth"
     },
     "small": {
       "zero": {
-        "value": 0,
+        "value": "0px",
         "type": "borderWidth"
       },
       "thin": {
-        "value": 1,
+        "value": "1px",
         "type": "borderWidth"
       },
       "line": {
-        "value": 2,
+        "value": "2px",
         "type": "borderWidth"
       },
       "medium": {
-        "value": 6,
+        "value": "6px",
         "type": "borderWidth"
       }
     },
     "app_kit": {
       "field": {
-        "value": 1,
+        "value": "1px",
         "type": "borderWidth"
       },
       "action": {
         "primary": {
-          "value": 0,
+          "value": "0px",
           "type": "borderWidth"
         },
         "secondary": {
-          "value": 1,
+          "value": "1px",
           "type": "borderWidth"
         }
       }
@@ -2589,54 +2589,54 @@
   },
   "br": {
     "base": {
-      "value": 4,
+      "value": "4px",
       "type": "borderRadius"
     },
     "small": {
       "s": {
-        "value": 2,
+        "value": "2px",
         "type": "borderRadius"
       },
       "m": {
-        "value": 6,
+        "value": "6px",
         "type": "borderRadius"
       },
       "l": {
-        "value": 8,
+        "value": "8px",
         "type": "borderRadius"
       }
     },
     "medium": {
       "s": {
-        "value": 10,
+        "value": "10px",
         "type": "borderRadius"
       },
       "m": {
-        "value": 12,
+        "value": "12px",
         "type": "borderRadius"
       },
       "l": {
-        "value": 16,
+        "value": "16px",
         "type": "borderRadius"
       }
     },
     "large": {
       "s": {
-        "value": 20,
+        "value": "20px",
         "type": "borderRadius"
       },
       "m": {
-        "value": 24,
+        "value": "24px",
         "type": "borderRadius"
       },
       "l": {
-        "value": 40,
+        "value": "40px",
         "type": "borderRadius"
       }
     },
     "app_style-square": {
       "image": {
-        "value": 2,
+        "value": "2px",
         "type": "borderRadius"
       },
       "field": {
@@ -2650,15 +2650,15 @@
     },
     "app_style-round": {
       "image": {
-        "value": 24,
+        "value": "2px",
         "type": "borderRadius"
       },
       "field": {
-        "value": 8,
+        "value": "2px",
         "type": "borderRadius"
       },
       "actions": {
-        "value": 8,
+        "value": "2px",
         "type": "borderRadius"
       }
     }
