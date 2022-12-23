@@ -1,11 +1,12 @@
 @import "src/assets/tokens/scss/base";
+@import "src/assets/scss/global/animations.scss";
 @import "src/components/pages/home/styles/mixins/some-page-themable";
 @import "src/components/pages/home/styles/variables/some-page-themes";
 
 .some-page {
   border-radius: #{$br-large-s}px;
   background: $base-color-neutral-100;
-  transition: 0.3s all;
+  transition: $base-transition-rule;
 
   @include some-page-themable($some-page-theme-styles);
 
@@ -15,7 +16,7 @@
     display: grid;
     position: relative;
     box-sizing: border-box;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
 
     & > * {
       text-align: center;
@@ -38,7 +39,7 @@
     font-size: 17px;
     line-height: #{$lh-fixed-22}px;
     letter-spacing: -0.408px;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
   }
 
   &__bang {
@@ -46,7 +47,7 @@
     height: 32px;
     background-color: $base-color-neutral-0;
     border-radius: 0 0 15px 15px;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
   }
 
   &__icons {
@@ -60,7 +61,7 @@
     line-height: #{$typo-title-middle-line-height}px;
     letter-spacing: -0.408px;
     margin: #{$space-app-kit-header-title-tb}px #{$space-app-kit-header-title-lr}px;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
   }
 
   &__subtitle {
@@ -70,24 +71,24 @@
     line-height: #{$typo-subtitle-small-line-height}px;
     letter-spacing: -0.408px;
     margin: #{$space-app-kit-header-subtitle-tb}px #{$space-app-kit-header-subtitle-lr}px;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
   }
 
   &__picture {
     margin: #{$space-app-kit-images-tb}px #{$space-app-kit-images-lr}px;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
 
     &:deep(.app-picture) {
       img {
         border-radius: #{$br-app-style-round-image}px;
-        transition: 0.3s all;
+        transition: $base-transition-rule;
       }
     }
   }
 
   &__fields {
     margin: #{$space-app-kit-field-tb}px 0;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
 
     form {
       width: 100%;
@@ -101,7 +102,7 @@
         row-gap: #{$space-app-kit-field-stack-gap}px;
         margin-inline-start: 0;
         margin-inline-end: 0;
-        transition: 0.3s all;
+        transition: $base-transition-rule;
       }
     }
   }
@@ -112,24 +113,24 @@
     input {
       width: 100%;
       border-radius: #{$br-app-style-round-field}px;
-      transition: 0.3s all;
+      transition: $base-transition-rule;
 
       &::placeholder {
         letter-spacing: -0.408px;
         color: $app-theme-light-color-text-icon-tertiary;
-        transition: 0.3s all;
+        transition: $base-transition-rule;
       }
     }
   }
 
   &__submit {
     margin: 0 0 #{$space-app-kit-actions-wrapper-bottom}px;
-    transition: 0.3s all;
+    transition: $base-transition-rule;
 
     &:deep(button) {
       width: 100%;
       border-radius: #{$br-app-style-round-actions}px;
-      transition: 0.3s all;
+      transition: $base-transition-rule;
     }
   }
 
