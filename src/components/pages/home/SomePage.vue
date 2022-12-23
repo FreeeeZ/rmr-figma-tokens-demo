@@ -4,7 +4,9 @@
       <div class="some-page__wrapper">
         <div class="some-page__header">
           <div class="some-page__time">
-            <span>{{ SOME_PAGE_TEXTS.time }}</span>
+            <span>
+              {{ SOME_PAGE_TEXTS.time }}
+            </span>
           </div>
           <div class="some-page__bang" />
           <div class="some-page__icons">
@@ -35,7 +37,11 @@
         <div class="some-page__fields">
           <form>
             <fieldset>
-              <div v-for="(field, index) in SOME_PAGE_FIELDS" :key="index" class="some-page__field">
+              <div
+                v-for="(field, index) in SOME_PAGE_FIELDS"
+                :key="index"
+                class="some-page__field"
+              >
                 <component
                   :is="field?.tag"
                   class="input input-primary"
@@ -51,7 +57,11 @@
           </form>
         </div>
         <div class="some-page__submit">
-          <AppButton button-type="primary" :disabled="isFormProcessing" @click="confirmForm">
+          <AppButton
+            button-type="primary"
+            :disabled="isFormProcessing"
+            @click="confirmForm"
+          >
             {{ isFormProcessing ? SOME_PAGE_TEXTS.submitButtonProcessingText : SOME_PAGE_TEXTS.submitButtonText }}
           </AppButton>
         </div>
