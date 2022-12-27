@@ -80,11 +80,11 @@ import { SOME_PAGE_TEXTS, SOME_PAGE_FIELDS } from "@/contants/some-page";
 
 import AppButton from "@/components/ui/button/appButton.vue";
 import AppPicture from "@/components/ui/picture/appPicture.vue";
+import AppHeading from "@/components/ui/typography/heading/appHeading.vue";
 
 import SomePageImage from "@/components/pages/home/images/image.png";
 import HeaderIconsDark from "@/components/pages/home/images/bang-dark.png";
 import HeaderIconsLight from "@/components/pages/home/images/bang-light.png";
-import AppHeading from "@/components/ui/typography/heading/appHeading.vue";
 
 defineProps({
   theme: {

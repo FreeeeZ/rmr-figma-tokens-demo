@@ -1116,7 +1116,7 @@
       },
       "accent": {
         "primary": {
-          "value": "$base_color.green.50",
+          "value": "$base_color.blue.50",
           "type": "color"
         },
         "negative": {
@@ -1216,7 +1216,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "$base_color.orange.20",
+          "value": "$base_color.neutral.20",
           "type": "color"
         },
         "tertiary": {
@@ -1266,7 +1266,7 @@
       },
       "accent": {
         "primary": {
-          "value": "$base_color.green.40",
+          "value": "$base_color.blue.40",
           "type": "color"
         },
         "negative": {
@@ -1766,15 +1766,15 @@
       },
       "app_style-round": {
         "image": {
-          "value": "$br.small.s",
+          "value": "$br.large.m",
           "type": "borderRadius"
         },
         "field": {
-          "value": "$br.small.s",
+          "value": "$br.small.l",
           "type": "borderRadius"
         },
         "actions": {
-          "value": "$br.small.s",
+          "value": "$br.small.l",
           "type": "borderRadius"
         }
       }

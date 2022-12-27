@@ -16,6 +16,7 @@ const tokensBuildDir = './src/assets/tokens/json';
 const cssBuildPath = `./src/assets/tokens/${outputFileFormat}/`;
 const tokenTransformerArgs = '--expandTypography=true --expandShadow=true --expandComposition=true --preserveRawValue: true';
 
+// Fetch file from remote repository
 async function getFileWithTokens() {
   const res = await fetch(tokenUrl, {
     method: 'GET'
@@ -46,6 +47,7 @@ function buildTokensAndCss(files) {
   }
 }
 
+// Converting to understandable json format for Style dictionary
 function buildToken(filename, callback) {
   exec(
     `node node_modules/token-transformer ${tokensBuildDir}/${baseTokenName} ${tokensBuildDir}/${filename}.json ${filename} ${tokenTransformerArgs}`,
@@ -53,6 +55,7 @@ function buildToken(filename, callback) {
   );
 }
 
+// Converting to understandable scss format for frontend
 function buildCss(filename) {
   StyleDictionary
     .extend({
@@ -65,7 +68,7 @@ function buildCss(filename) {
             destination: `_${filename}.${outputFileFormat}`,
             format: `${outputFileFormat}/variables`,
           }],
-        },
+        }
       }
     })
     .buildAllPlatforms();

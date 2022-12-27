@@ -1960,7 +1960,7 @@
     },
     "surface": {
       "primary": {
-        "value": "#2dd25c",
+        "value": "#0e5af1",
         "type": "color"
       },
       "secondary": {
@@ -2000,7 +2000,7 @@
     },
     "accent": {
       "primary": {
-        "value": "#2dd25c",
+        "value": "#0e5af1",
         "type": "color"
       },
       "negative": {
@@ -2068,7 +2068,7 @@
     },
     "button": {
       "primary": {
-        "value": "#2dd25c",
+        "value": "#0e5af1",
         "type": "color"
       },
       "onPrimary": {
@@ -2100,7 +2100,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "#5e3c08",
+        "value": "#333333",
         "type": "color"
       },
       "tertiary": {
@@ -2110,7 +2110,7 @@
     },
     "surface": {
       "primary": {
-        "value": "#24a849",
+        "value": "#0b48c1",
         "type": "color"
       },
       "secondary": {
@@ -2150,7 +2150,7 @@
     },
     "accent": {
       "primary": {
-        "value": "#24a849",
+        "value": "#0b48c1",
         "type": "color"
       },
       "negative": {
@@ -2218,7 +2218,7 @@
     },
     "button": {
       "primary": {
-        "value": "#24a849",
+        "value": "#0b48c1",
         "type": "color"
       },
       "onPrimary": {
@@ -2650,15 +2650,15 @@
     },
     "app_style-round": {
       "image": {
-        "value": "2px",
+        "value": "24px",
         "type": "borderRadius"
       },
       "field": {
-        "value": "2px",
+        "value": "8px",
         "type": "borderRadius"
       },
       "actions": {
-        "value": "2px",
+        "value": "8px",
         "type": "borderRadius"
       }
     }
