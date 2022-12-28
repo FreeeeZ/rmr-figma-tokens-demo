@@ -23,7 +23,6 @@
     "click-outside-vue3": "4.0.1",
     "node-fetch": "^3.3.0",
     "normalize.css": "8.0.1",
-    "pinia": "2.0.28",
     "style-dictionary": "^3.7.1",
     "token-transformer": "0.0.28",
     "vue": "3.2.45",
