@@ -7,7 +7,7 @@ export default ({ mode }) => {
   process.env = {...process.env, ...loadEnv(mode, process.cwd())};
 
   return defineConfig({
-    base: process.env.VITE_DEV_BASE_URL,
+    base: mode === 'development' ? process.env.VITE_DEV_BASE_URL : process.env.VITE_PROD_BASE_URL,
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),

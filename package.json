@@ -15,7 +15,8 @@
     "preview": "vite preview",
     "lint": "eslint --ext .vue,.ts .",
     "stylelint": "npx stylelint **/*.scss --fix",
-    "get-tokens": "node src/assets/tokens/getTokensAndParseToCss.mjs"
+    "get-tokens": "node src/assets/tokens/getTokensAndParseToCss.mjs",
+    "deploy": "sh bin/deploy.sh"
   },
   "dependencies": {
     "@types/node": "18.11.14",

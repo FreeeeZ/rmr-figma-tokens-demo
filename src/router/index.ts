@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from 'vue-router';
 import Home from '@/pages/home/index.vue';
 import NotFound from '@/pages/not-found/index.vue';
 
-const baseUrl = '/';
+const baseUrl = process.env.NODE_ENV === 'development' ? '/' : '/rmr-figma-tokens-demo/';
 
 const routes = [
   {
