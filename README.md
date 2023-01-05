@@ -45,4 +45,4 @@ https://github.com/arturuxui/rmr_tokens
 
 [MIT](https://github.com/FreeeeZ/rmr-figma-tokens-demo/blob/main/LICENSE)
 
-Copyright (c) 2022, Shell Vladislav
+Copyright (c) 2023, Shell Vladislav
